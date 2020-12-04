@@ -11,3 +11,6 @@ Parametros gerais de segurança
 
 ## /etc/nginx/conf.d/ssl.conf
 Parametros gerais de segurança para HTTPS
+
+## Imagem base do NGINX
+nginx:1.18.0-alpine
