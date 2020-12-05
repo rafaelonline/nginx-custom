@@ -6,6 +6,7 @@ services:
       - frontend
     volumes:
       - ./vhosts/default.conf:/etc/nginx/vhosts/default.conf
+      - ./index.html:/usr/share/nginx/html/index.html
     ports:
       - 8080:80
 networks:
