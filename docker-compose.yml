@@ -5,7 +5,7 @@ services:
     networks:
       - frontend
     volumes:
-      - ./vhosts/default.conf:/etc/nginx/vhosts/
+      - ./vhosts/default.conf:/etc/nginx/vhosts/default.conf
     ports:
       - 8080:80
 networks:
