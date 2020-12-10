@@ -6,6 +6,6 @@ COPY conf.d/ /etc/nginx/conf.d/
 
 COPY nginx.conf /etc/nginx/nginx.conf
 
-COPY vhost/ /etc/nginx/vhost/
+COPY vhosts/ /etc/nginx/vhosts/
 
 COPY index.html /usr/share/nginx/html/index.html
