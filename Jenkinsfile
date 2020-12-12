@@ -5,7 +5,7 @@ pipeline {
     dockerImage = ''
   }
   agent {
-      label 'docker-slave'
+      label 'jenkins-dockercli'
   }
   stages {
     stage('Cloning Git') {
