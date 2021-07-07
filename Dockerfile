@@ -1,4 +1,4 @@
-FROM nginx:1.18.0-alpine
+FROM nginx:mainline-alpine
 
 LABEL maintainer="Rafael Conceição - https://github.com/rafaelonline"
 
